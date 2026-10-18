@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="مسجد اور ہلال">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#062e1f"/>
+      <stop offset="1" stop-color="#14805a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.2" r="0.4">
+      <stop offset="0" stop-color="#f6e3a1" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#f6e3a1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#sky)"/>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <!-- stars -->
+  <g fill="#f6e3a1">
+    <circle cx="70" cy="60" r="2.5"/><circle cx="150" cy="110" r="2"/><circle cx="260" cy="50" r="2.5"/>
+    <circle cx="330" cy="100" r="1.8"/><circle cx="420" cy="40" r="2"/><circle cx="540" cy="120" r="2.3"/>
+    <circle cx="40" cy="160" r="1.8"/><circle cx="210" cy="170" r="1.6"/>
+  </g>
+  <!-- crescent -->
+  <path d="M470 60a42 42 0 1 0 38 66a34 34 0 1 1-38-66z" fill="#f4d982"/>
+  <!-- minarets -->
+  <g fill="#e9f5ef">
+    <rect x="95" y="170" width="26" height="170"/>
+    <path d="M90 170h36l-18-38z"/>
+    <rect x="479" y="170" width="26" height="170"/>
+    <path d="M474 170h36l-18-38z"/>
+  </g>
+  <g fill="#c9a24a">
+    <circle cx="108" cy="126" r="5"/><circle cx="492" cy="126" r="5"/>
+  </g>
+  <!-- main dome -->
+  <path d="M170 340V250a130 110 0 0 1 260 0v90z" fill="#f4efe0"/>
+  <path d="M300 130v-26" stroke="#c9a24a" stroke-width="4"/>
+  <circle cx="300" cy="98" r="7" fill="#c9a24a"/>
+  <!-- side domes -->
+  <path d="M130 340v-45a45 40 0 0 1 90 0v45z" fill="#e9f5ef"/>
+  <path d="M380 340v-45a45 40 0 0 1 90 0v45z" fill="#e9f5ef"/>
+  <!-- door & windows -->
+  <path d="M270 340v-60a30 34 0 0 1 60 0v60z" fill="#0b5d3b"/>
+  <g fill="#0b5d3b">
+    <path d="M200 300v-24a14 16 0 0 1 28 0v24z"/>
+    <path d="M372 300v-24a14 16 0 0 1 28 0v24z"/>
+  </g>
+  <!-- ground -->
+  <rect y="340" width="600" height="60" fill="#052b1c"/>
+  <text x="300" y="382" text-anchor="middle" font-size="22" fill="#f4d982" font-family="serif">﷽</text>
+</svg>

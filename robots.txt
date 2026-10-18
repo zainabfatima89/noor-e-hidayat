@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zainabfatima89.github.io/noor-e-hidayat/sitemap.xml
